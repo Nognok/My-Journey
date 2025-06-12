@@ -1,0 +1,46 @@
+/* 인트로 섹션 */
+.head-image {
+    text-align: center;
+    margin-top: 100px;
+}
+.head-title {
+    color: rgb(50, 50, 50);
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 80px;
+}
+.intro-message {
+    color: rgb(83, 83, 83);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px; margin-bottom: 200px;
+}
+
+/* 내 프로필 섹션 */
+.my-profile-text {
+    color: rgb(92, 89, 81);
+    margin: 15px;
+}
+.my-profile {
+    display: flex;
+    height: 600px; width: 700px;
+    margin-left: 15px; margin-bottom: 50px;
+    box-shadow: 1px 1px 10px 3px rgb(194, 194, 194);
+}
+
+/* 여정 타임라인 섹션 */
+.my-timeline>div {
+    background-color: rgb(168, 184, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    margin-top: 2px;
+}
+.my-timeline>div>h1 {
+    color: white;
+}
+
+.timeline li {
+    color: white;
+}

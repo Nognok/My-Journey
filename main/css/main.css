@@ -1,0 +1,29 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(buttons.css);
+@import url(contents.css);
+
+
+/* 모든 태그에 대한 적용 */
+body {
+    font-family: "nanumsquare", sans-serif;
+    background-color: white;
+    color: black;
+    height: 4000px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 모든 앵커 태그에 대한 적용 */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* 페이지 절취선 */
+.div-line {
+    background-color: white;
+    height: 1px;
+    box-shadow: 1px 1px 10px 1px gray;
+}

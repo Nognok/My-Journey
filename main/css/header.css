@@ -1,0 +1,39 @@
+/* 로고 */
+.logo-title {
+    font-family: "Pacifico", sans-serif;
+}
+.logo-title:hover {
+    color: red;
+}
+
+/* 상단 메뉴 바 */
+.header-inner {
+    background-color: white;
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100vw; height: 55px;
+    box-shadow: 1px 1px 30px 1px rgba(90, 90, 90, 0.274);
+    z-index: 1;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw; height: 50px;
+    margin: 0px auto;
+}
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.header-link>a:hover {
+    color: red;
+}
+
+/* 헤더 텍스트 */
+.header-text {
+    color: rgb(180, 180, 180);
+    position: relative;
+    left: 5px; top: 55px;
+}
