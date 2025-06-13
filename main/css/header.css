@@ -34,6 +34,6 @@
 /* 헤더 텍스트 */
 .header-text {
     color: rgb(180, 180, 180);
-    position: relative;
+    position: fixed;
     left: 5px; top: 55px;
 }

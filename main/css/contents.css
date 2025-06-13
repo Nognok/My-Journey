@@ -1,19 +1,35 @@
+/* 페이지 구역 이동 */
+.page-nav {
+    position: fixed;
+    height: 500px; width: 200px;
+    left: 20px; top: 100px;
+}
+.page-nav-list {
+    list-style: none;
+}
+.page-nav-list>li {
+    margin-top: 5px;
+}
+.page-nav-list>li>a {
+    color: white;
+}
+.page-nav-list>li>a:hover {
+    color: aquamarine;
+}
+
 /* 인트로 섹션 */
 .head-image {
-    text-align: center;
-    margin-top: 50px;
+    margin-top: 72px;
 }
 .head-title {
     color: rgb(50, 50, 50);
     font-weight: 1000;
-    text-align: center;
     margin-top: 20px;
 }
 .intro-message {
     color: rgb(83, 83, 83);
     font-weight: 300;
-    text-align: center;
-    margin-top: 60px; margin-bottom: 200px;
+    margin-top: 60px; margin-bottom: 100px;
 }
 
 /* 내 프로필 섹션 */

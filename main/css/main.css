@@ -8,11 +8,21 @@
 /* 모든 태그에 대한 적용 */
 body {
     font-family: "nanumsquare", sans-serif;
-    background-color: white;
+    background-color: rgb(48, 48, 48);
     color: black;
     height: 4000px;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
+}
+
+/* 메인 페이지 요소 */
+.main-page {
+    background-color: white;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: -17px;
+    position: relative;
+    text-align: center;
 }
 
 /* 모든 앵커 태그에 대한 적용 */
