@@ -6,7 +6,7 @@
     color: red;
 }
 
-/* 상단 메뉴 바 */
+/* 메뉴 바 */
 .header-inner {
     background-color: white;
     position: fixed;
@@ -35,5 +35,28 @@
 .header-text {
     color: rgb(180, 180, 180);
     position: fixed;
-    left: 5px; top: 55px;
+    left: 5px; top: 65px;
+}
+
+/* 페이지 구역 이동 */
+.page-nav {
+    background-color: rgba(0, 0, 0, 0.137);
+    position: fixed;
+    width: 150px;
+    top: 130px;
+    border-right: 3px solid black;
+}
+.page-nav-list {
+    list-style: none;
+}
+.page-nav-list>li {
+    margin-top: 10px;
+}
+.page-nav-list>li>a {
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+}
+.page-nav-list>li>a:hover {
+    background-color: black;
+    color: white;
 }

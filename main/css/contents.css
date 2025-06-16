@@ -1,36 +1,13 @@
-/* 페이지 구역 이동 */
-.page-nav {
-    position: fixed;
-    width: 150px;
-    top: 100px;
-    margin-left: 20px;
-}
-.page-nav-list {
-    list-style: none;
-}
-.page-nav-list>li {
-    margin-top: 10px;
-}
-.page-nav-list>li>a {
-    color: rgb(196, 196, 196);
-    font-size: 20px;
-}
-.page-nav-list>li>a:hover {
-    background-color: black;
-    color: white;
-}
-
 /* 인트로 섹션 */
 .page-intro {
-    height: 2000px;
+    height: 1500px;
 }
 .head-image {
-    margin-top: 72px;
+    padding-top: 150px;
 }
 .head-title {
     color: rgb(50, 50, 50);
     font-weight: 1000;
-    margin-top: 15px;
 }
 .intro-message {
     color: rgb(83, 83, 83);
@@ -39,29 +16,28 @@
 }
 
 /* 내 프로필 섹션 */
+.my-profile-content {
+    display: flex;
+    justify-content: center;
+    height: 2000px;
+}
 .my-profile-text {
     color: rgb(92, 89, 81);
     font-size: 30px;
     margin-bottom: 50px;
 }
-.my-profile {
-    display: flex;
-    justify-content: center;
-    height: 2000px;
-}
-.my-info1 {
+.info1 {
     background-color: white;
     height: 600px; width: 600px;
     margin-bottom: 50px; margin-right: 20px;
     box-shadow: 1px 1px 10px 3px rgb(194, 194, 194);
 }
-.my-info2 {
+.info2 {
     height: 600px; width: 700px;
     margin-bottom: 50px;
 }
 
-
-/* 여정 타임라인 섹션 */
+/* 타임라인 섹션 */
 .my-timeline {
     height: 2500px;
 }
@@ -83,10 +59,15 @@
 /* 프로젝트 섹션 */
 .my-projects {
     background-color: white;
-    height: 1200px;
+    height: 1000px;
 }
 
 .my-projects>h1 {
     margin-top: 100px;
     font-size: 50px;
+}
+
+/* 이미지 */
+.boatman-image {
+    margin-bottom: -170px;
 }
