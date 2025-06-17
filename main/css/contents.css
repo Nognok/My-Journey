@@ -19,22 +19,43 @@
 .my-profile-content {
     display: flex;
     justify-content: center;
-    height: 2000px;
+    height: 2500px;
 }
 .my-profile-text {
-    color: rgb(92, 89, 81);
+    background-color: black;
+    color: white;
     font-size: 30px;
     margin-bottom: 50px;
 }
 .info1 {
     background-color: white;
     height: 600px; width: 600px;
-    margin-bottom: 50px; margin-right: 20px;
+    margin-right: 50px;
     box-shadow: 1px 1px 10px 3px rgb(194, 194, 194);
 }
 .info2 {
+    background-color: white;
     height: 600px; width: 700px;
-    margin-bottom: 50px;
+}
+.about-head-text, .about-body-text {
+    white-space: pre-line;
+    line-height: 1.5;
+}
+.info2-about {
+    position: relative;
+    top: -30px;
+}
+.about-head-text {
+    font-size: 40px;
+}
+.about-body-text {
+    background-color: rgb(236, 236, 236);
+    color: rgb(143, 143, 143);
+    padding-bottom: 30px;
+}
+.info2-buttons {
+    position: relative;
+    text-align: center;
 }
 
 /* 타임라인 섹션 */

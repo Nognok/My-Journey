@@ -52,3 +52,20 @@
 .open-diary:active {
     background-color: black;
 }
+
+/* 프로필 about,skills 버튼 */
+.about-button, .skills-button {
+    background-color: white;
+    border: none;
+    font-size: 40px;
+}
+.about-button, .skills-button:hover {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    cursor: pointer;
+}
+.about-button {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    margin-right: 10px;
+}
