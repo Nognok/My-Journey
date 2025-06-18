@@ -16,9 +16,7 @@
 }
 
 /* 내 프로필 섹션 */
-.my-profile-content {
-    display: flex;
-    justify-content: center;
+.my-profile {
     height: 2500px;
 }
 .my-profile-text {
@@ -27,11 +25,40 @@
     font-size: 30px;
     margin-bottom: 50px;
 }
+.my-profile-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .info1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    height: 600px; width: 600px;
+    height: 400px; width: 600px;
     margin-right: 50px;
-    box-shadow: 1px 1px 10px 3px rgb(194, 194, 194);
+    box-shadow: 1px 1px 10px 1px rgb(194, 194, 194);
+}
+.info1-image {
+    height: 350px; width: 250px;
+    box-shadow: 0px 0px 10px 0px rgb(194, 194, 194);
+}
+.info1-list>ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.info1-list>ul>li {
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.info1-list>ul>li>a {
+    color: rgb(71, 71, 71);
+}
+.info1-list>ul>li>a:hover {
+    color: red;
+    font-weight: bolder;
 }
 .info2 {
     background-color: white;
